@@ -11,7 +11,7 @@
 
 			# START CONFIGURATION DO NOT REMOVE THIS LINE
 			$this->title_field = "id";
-			$this->limit = "20";
+			$this->limit = "100";
 			$this->orderby = "id,desc";
 			$this->global_privilege = false;
 			$this->button_table_action = true;
@@ -24,7 +24,7 @@
 			$this->button_show = true;
 			$this->button_filter = true;
 			$this->button_import = false;
-			$this->button_export = false;
+			$this->button_export = true;
 			$this->table = "localizations";
 			# END CONFIGURATION DO NOT REMOVE THIS LINE
 
@@ -48,7 +48,6 @@
 			//$this->form[] = ["label"=>"En-US","name"=>"en-US","type"=>"text","required"=>TRUE,"validation"=>"required|min:1|max:255"];
 			//$this->form[] = ["label"=>"Km-KH","name"=>"km-KH","type"=>"text","required"=>TRUE,"validation"=>"required|min:1|max:255"];
 			# OLD END FORM
-
 			/* 
 	        | ---------------------------------------------------------------------- 
 	        | Sub Module
@@ -319,10 +318,5 @@
 	        //Your code here
 
 	    }
-
-
-
-	    //By the way, you can still create your own method in here... :) 
-
 
 	}
